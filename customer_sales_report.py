@@ -10,6 +10,7 @@ readsales=csv.reader(rsales)
 
 
 next(readsales)
+report.write('Customber ID , Total'+'\n')
 custid= '250'
 total=0
 
